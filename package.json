@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/TNRIS/atx-low-water-crossings/issues"
   },
-  "homepage": "https://github.com/TNRIS/atx-low-water-crossings"
+  "homepage": "https://github.com/TNRIS/atx-low-water-crossings",
+  "dependencies": {
+    "geojson": "^0.2.1",
+    "request": "^2.55.0",
+    "xml2js": "^0.4.8"
+  },
+  "devDependencies": {
+  }
 }
