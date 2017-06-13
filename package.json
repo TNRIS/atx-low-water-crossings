@@ -1,7 +1,7 @@
 {
   "name": "atx-low-water-crossings",
   "version": "1.0.0",
-  "description": "",
+  "description": "Retreives latest Austin low water road crossing data and returns it as geojson",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
