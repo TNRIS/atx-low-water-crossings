@@ -5,7 +5,10 @@ Retreives latest Austin, TX low water road crossing data from the [City of Austi
 
 ```javascript
 var atxCrossingData = require('atx-low-water-crossings')
-atxCrossingData.getCrossingData(true, function(error, result) {
-  console.log(result)
+atxCrossingData.getCrossingData(true, function(err, result) {
+  if (err) {
+    console.error(err.toString())
+  }
+  process.stdout.write(JSON.stringify(result))
 })
 ```
